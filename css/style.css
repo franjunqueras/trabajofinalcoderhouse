@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+body {
+  font-family: 'Lato', sans-serif; }
+
+header {
+  height: 80px; }
+  header .navbar-default {
+    height: 80px;
+    background-color: #fff; }
+    header .navbar-default .navbar-nav .open a, header .navbar-default .navbar-nav .open a:focus, header .navbar-default .navbar-nav .open a.hover {
+      background-color: transparent; }
+
+@media (max-width: 220px) and (max-width: 600px) {
+  .container .navbar-header {
+    height: 200px; } }
+
+.container .navbar-header a figure img {
+  width: 180px; }
+
+.container .navbar-collapse {
+  font-weight: 300; }
+  .container .navbar-collapse ul li .padding-button {
+    padding: 27px 20px; }
+    .container .navbar-collapse ul li .padding-button .ion-ios-arrow-down {
+      position: absolute;
+      top: 24px;
+      padding: 5px 5px; }
+  .container .navbar-collapse ul li .button-blue {
+    border-radius: 3px;
+    background-color: #005fe6;
+    margin-top: 14px;
+    color: #fff;
+    font-weight: 500; }
+
+.banner {
+  background: linear-gradient(180deg, #66a5ff, #0069ff);
+  height: auto;
+  padding: 60px 0; }
+  .banner .container .padding-right {
+    padding-right: 139px; }
+  .banner .container h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    padding: 60px 0 0 0;
+    line-height: 50px;
+    margin: 0 0 30px 0; }
+  .banner .container .formulario form {
+    width: 100%; }
+    .banner .container .formulario form .form-input {
+      margin: 0 0 15px 0;
+      padding: 0; }
+      .banner .container .formulario form .form-input .txt-area {
+        width: 100%;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        border-radius: 3px;
+        border: 1px solid #fff;
+        font-size: 14px; }
+        .banner .container .formulario form .form-input .txt-area::-webkit-input-placeholder {
+          color: rgba(255, 255, 255, 0.7) !important;
+          font-weight: 300;
+          font-size: 14px; }
+      .banner .container .formulario form .form-input .create-account {
+        width: 100%;
+        padding: 15px;
+        background-color: #fff;
+        color: #005fe6;
+        border: none;
+        border-radius: 3px; }
+  .banner .container .formulario p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 1px; }
+    .banner .container .formulario p .terms {
+      color: #fff;
+      text-decoration: none;
+      border-bottom: 1px solid currentColor; }
+  .banner .container .browser figure img {
+    width: 100%; }
+
+.manage {
+  height: auto;
+  padding: 80px 0; }
+  .manage .container {
+    text-align: left; }
+    .manage .container .padding-lados {
+      padding: 0 45px; }
+    .manage .container h2 {
+      font-size: 30px;
+      margin-bottom: 55px; }
+    .manage .container figure {
+      margin-bottom: 30px; }
+      .manage .container figure img {
+        width: 130px; }
+    .manage .container h3 {
+      font-size: 23px;
+      font-weight: 500;
+      margin-bottom: 30px; }
+    .manage .container p {
+      font-weight: 300;
+      line-height: 30px; }
