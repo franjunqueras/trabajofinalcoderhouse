@@ -200,3 +200,67 @@ header {
     font-size: 30px;
     margin-bottom: 55px;
     text-align: center; }
+  .mapa .container .img-mapa {
+    padding: 0 90px; }
+    .mapa .container .img-mapa figure img {
+      width: 100%; }
+  .mapa .container .btn-precio a {
+    padding: 20px 30px; }
+
+.marcas {
+  border-top: 1px solid #e0e0e0;
+  height: auto;
+  padding: 80px 0; }
+  .marcas .container h2 {
+    font-size: 30px;
+    margin-bottom: 55px;
+    text-align: center; }
+  .marcas .container .img-marcas {
+    padding: 0 0 70px 0; }
+    .marcas .container .img-marcas figure img {
+      width: 100%; }
+  .marcas .container .btn-precio a {
+    padding: 20px 30px; }
+
+.help-azul {
+  border-top: 1px solid #e0e0e0;
+  height: auto;
+  padding: 80px 0;
+  background-color: #0069ff;
+  background-image: url("../img/lineas.svg");
+  background-size: cover; }
+  .help-azul .container.small {
+    padding: 0 250px; }
+    .help-azul .container.small h2 {
+      font-size: 30px;
+      margin-bottom: 40px;
+      text-align: center;
+      color: #fff;
+      line-height: 40px; }
+    .help-azul .container.small .btn-precio .margin a {
+      color: #0069ff;
+      background-color: #fff; }
+
+footer {
+  background-color: #2e3234;
+  height: auto;
+  padding: 80px 0; }
+  footer .container ul {
+    color: #fff; }
+    footer .container ul li {
+      font-weight: 300;
+      padding: 10px 0;
+      font-size: 14px; }
+      footer .container ul li.titulo {
+        font-size: 20px;
+        font-weight: 700; }
+  footer .container .ion-social-twitter, footer .container .ion-social-facebook, footer .container .ion-social-linkedin, footer .container .ion-social-octocat, footer .container .ion-social-googleplus, footer .container .ion-social-instagram, footer .container .ion-social-youtube {
+    color: #fff;
+    margin: 0 3px; }
+  footer .container .copyright {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 13px 0;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px; }
