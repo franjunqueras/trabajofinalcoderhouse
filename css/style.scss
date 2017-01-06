@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 $color-blanco : #fff;
-$color-azul : #005fe6;
+$color-azul : #0069ff;
 $font-light : 300;
 $font-regular : 500;
 $font-bold : 700;
+
+.flex {
+	display: flex;
+}
 
 $phone : "(max-width : 220px) and (max-width : 600px)";
 
@@ -137,15 +141,17 @@ header {
 	padding: 80px 0;
 	.container {
 		text-align: left;
-		.padding-lados {
-			padding: 0 45px;
+		.padding-items {
+			padding: 20px 45px;
 		}
 		h2 {
 			font-size: 30px;
 			margin-bottom: 55px;
+			text-align: center;
 		}
 		figure {
 			margin-bottom: 30px;
+			height: 140px;
 			img {
 				width: 130px;
 			}
@@ -163,9 +169,118 @@ header {
 	}
 }
 
+.pricing {
+	border-top: 1px solid #e0e0e0;
+	height: auto;
+	padding: 80px 0;
+	.container {
+		h2 {
+			font-size: 30px;
+			margin-bottom: 55px;
+			text-align: center;
+		}
+		.mes-hora {
+			display: flex;
+			align-items: center;
+			.mensual {
+				color: $color-azul;;
+				padding: 0;
+				h4 {
+					font-size: 13px;
+				}
+			}
+			.interruptor {
+				figure {
+					img {
+						width: 80px;
+					}
+				}
+			}
+			.hora {
+				padding: 0;
+				h4 {
+					font-size: 13px;
+				}
+			}
+		}
+		
+	}
+}
 
+.tabla-precios-todos {
+	padding: 70px 0;
+	align-items: center;
+	.tabla-precio {
+		width: 20%;
+		text-align: center;
+		border: 1px solid $color-azul;
+		padding: 30px;
+		&:odd{
+			background-color: red;
+		}
+		&.precio-active {
+			box-shadow: 2px 0px 31px -1px rgba(0,105,255,1);
+			padding: 50px 0;
+		}
+		.precio-grande {
+			justify-content: center;
+			margin: 0 0 40px 0;
+			.superior {
+				align-self: flex-start;
+				font-size: 21px;
+				font-weight: $font-bold;
+			}
+			.numero {
+	    		font-size: 55px;
+	    		font-weight: $font-bold;
+			}
+			.abajo {
+				align-self: flex-end;
+				font-weight: $font-bold;
+			}
+		}
+		ul {
+			li {
+				color: $color-azul;
+				padding: 7px 0;
+				font-weight: $font-light;
+				.bolder {
+					font-weight: $font-bold;
+				}
+			}
+		}
+	}
+}
 
+.container {
+	.btn-precio {
+	text-align: center;
+		.margin {
+			margin: 20px 0;
+			a {
+				background-color: $color-azul;
+				color: $color-blanco;
+				padding: 15px 80px;
+				border-radius: 3px;
+				text-decoration: none;
+			}
+			p {
+				font-weight: $font-light;
+				font-size: 14px;
+			}
+		}
+	}
+}
 
-
-
-
+.mapa {
+	border-top: 1px solid #e0e0e0;
+	height: auto;
+	padding: 80px 0;
+	.container {
+		h2 {
+			font-size: 30px;
+			margin-bottom: 55px;
+			text-align: center;
+		}
+	}
+}

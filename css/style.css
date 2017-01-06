@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+.flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 body {
   font-family: 'Lato', sans-serif; }
 
@@ -27,7 +32,7 @@ header {
       padding: 5px 5px; }
   .container .navbar-collapse ul li .button-blue {
     border-radius: 3px;
-    background-color: #005fe6;
+    background-color: #0069ff;
     margin-top: 14px;
     color: #fff;
     font-weight: 500; }
@@ -66,7 +71,7 @@ header {
         width: 100%;
         padding: 15px;
         background-color: #fff;
-        color: #005fe6;
+        color: #0069ff;
         border: none;
         border-radius: 3px; }
   .banner .container .formulario p {
@@ -86,13 +91,15 @@ header {
   padding: 80px 0; }
   .manage .container {
     text-align: left; }
-    .manage .container .padding-lados {
-      padding: 0 45px; }
+    .manage .container .padding-items {
+      padding: 20px 45px; }
     .manage .container h2 {
       font-size: 30px;
-      margin-bottom: 55px; }
+      margin-bottom: 55px;
+      text-align: center; }
     .manage .container figure {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      height: 140px; }
       .manage .container figure img {
         width: 130px; }
     .manage .container h3 {
@@ -102,3 +109,94 @@ header {
     .manage .container p {
       font-weight: 300;
       line-height: 30px; }
+
+.pricing {
+  border-top: 1px solid #e0e0e0;
+  height: auto;
+  padding: 80px 0; }
+  .pricing .container h2 {
+    font-size: 30px;
+    margin-bottom: 55px;
+    text-align: center; }
+  .pricing .container .mes-hora {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .pricing .container .mes-hora .mensual {
+      color: #0069ff;
+      padding: 0; }
+      .pricing .container .mes-hora .mensual h4 {
+        font-size: 13px; }
+    .pricing .container .mes-hora .interruptor figure img {
+      width: 80px; }
+    .pricing .container .mes-hora .hora {
+      padding: 0; }
+      .pricing .container .mes-hora .hora h4 {
+        font-size: 13px; }
+
+.tabla-precios-todos {
+  padding: 70px 0;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .tabla-precios-todos .tabla-precio {
+    width: 20%;
+    text-align: center;
+    border: 1px solid #0069ff;
+    padding: 30px; }
+    .tabla-precios-todos .tabla-precio:odd {
+      background-color: red; }
+    .tabla-precios-todos .tabla-precio.precio-active {
+      box-shadow: 2px 0px 31px -1px #0069ff;
+      padding: 50px 0; }
+    .tabla-precios-todos .tabla-precio .precio-grande {
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 0 0 40px 0; }
+      .tabla-precios-todos .tabla-precio .precio-grande .superior {
+        -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+        font-size: 21px;
+        font-weight: 700; }
+      .tabla-precios-todos .tabla-precio .precio-grande .numero {
+        font-size: 55px;
+        font-weight: 700; }
+      .tabla-precios-todos .tabla-precio .precio-grande .abajo {
+        -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        font-weight: 700; }
+    .tabla-precios-todos .tabla-precio ul li {
+      color: #0069ff;
+      padding: 7px 0;
+      font-weight: 300; }
+      .tabla-precios-todos .tabla-precio ul li .bolder {
+        font-weight: 700; }
+
+.container .btn-precio {
+  text-align: center; }
+  .container .btn-precio .margin {
+    margin: 20px 0; }
+    .container .btn-precio .margin a {
+      background-color: #0069ff;
+      color: #fff;
+      padding: 15px 80px;
+      border-radius: 3px;
+      text-decoration: none; }
+    .container .btn-precio .margin p {
+      font-weight: 300;
+      font-size: 14px; }
+
+.mapa {
+  border-top: 1px solid #e0e0e0;
+  height: auto;
+  padding: 80px 0; }
+  .mapa .container h2 {
+    font-size: 30px;
+    margin-bottom: 55px;
+    text-align: center; }
